@@ -6,7 +6,7 @@ from scipy.optimize import curve_fit
 import matplotlib as mpl
 mpl.use("QT5Agg")
 plt.rcParams['font.size']=15
-
+print("Test")
 
 I=np.array([287,287,286,285,284,282,281,276,274,273,271,269,268,266,264,262,259,256,253,249,246,241,235,229,221,211,199,177,136,96,65,42,26,15,8,4,2,1])
 I=np.append(I,np.array([0 for i in range(22)]))
